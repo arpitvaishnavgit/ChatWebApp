@@ -22,11 +22,7 @@ export const MyProfile = () => {
                 <h1 className="headertextProfile">Thanks For Visiting My App! Really Appreciate </h1><h1 className="emoji">&#128522;</h1>
                        <h3 className="frontandback">FrontEnd and Backend :</h3><p className="myname">Anand dudi</p><br/>
                            <div className="detailclass"><h3 className="detailText">Some-Details:</h3><p className="detail">This is my first website.I use <font color="lightcoral">REACT</font> at Front and <font color="lightcoral">DJANGO</font> at back.<br/>
-                                        thanks to these frameworks to help in making these type of website really<br/>
-                                        easy and productive.All are codes written by my logic and knowledge instead<br/>
-                                        copy paste from Net and in this context i get to learn more complicated<br/>
-                                        things at first place so it has been wonderful journey overall.<br/>
-                                        I can surely say that now i can make any frontend styling and animation using CSS.<RiHomeSmileFill className="smilehome"/>
+<RiHomeSmileFill className="smilehome"/>
                             </p></div>
                 <div onClick={()=>setTimeout(()=>{history.push("/")},230)} className="profileBackButton"><span>Back</span></div>
                 </div>
