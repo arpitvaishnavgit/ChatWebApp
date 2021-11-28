@@ -197,7 +197,7 @@ DATABASES['default'].update(prod_db)
 django_heroku.settings(locals())
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': <Your cloudinary name>,
+    'CLOUD_NAME': <your cloudinary name>,
     'API_KEY': <your cloudinary api key>,
     'API_SECRET': <your cloudinary secret key>,
 }
