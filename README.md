@@ -1,4 +1,5 @@
-# This is a chat App <br>
+ <h1 align="center">This is a chat App</h1>
+ <h3 align="center"><a href="https://twitter.com/anand_dudi"><img src="https://img.shields.io/twitter/follow/anand_dudi.svg?style=social" /> </a></h3>
 The aim of this app was just for portfolio, not for random use and that is why i didn't use
 websockets for managing the communication between the client & the server.I did also implement
 two approach for building database models for chats :neckbeard:<br>
