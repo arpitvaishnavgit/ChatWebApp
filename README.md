@@ -6,6 +6,6 @@ The extra functionality which i added here is random chats. Mean by that You can
 anyone who is registered themself to the app just by submitting their names.if you want register by
 your credentials you will get all registered users with star tag on your profile as well :blush:
 <br>
-Link for the project is [here](https://dudichatapp.herokuapp.com/)
+Link for the project is [here](https://dudichatapp.herokuapp.com/) and [Lets go to Quora](https://www.quora.com)
 
    
