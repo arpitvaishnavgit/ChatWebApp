@@ -218,7 +218,7 @@ def makeName(request):
     else:
         return Response(serializer.errors)
 
-
+# i also tried lil bit complex approach :) 
 # for random chat
 # @api_view(['POST'])
 # def random_chat(request):
@@ -228,7 +228,7 @@ def makeName(request):
 #         nameIs = request.data['name']
 #         chatIs = randomchat.objects.filter(name_user__names_foruser=nameIs)
 #         serializer = randomDataSerializer(chatIs,many=True)
-#         primerykeyIs = names.objects.filter(names_foruser=request.data['name']).first()django
+#         primerykeyIs = names.objects.filter(names_foruser=request.data['name']).first()
 #         keyIs = primerykeyIs.pk
 #         request.data["name_user"] = keyIs
 #         serializer2 = randomDataSerializer(data=request.data)
