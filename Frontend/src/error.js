@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 function Error(message){
-    const error = "message"
+    const error = "Not found"
     return (
         <div>{error}
             <Link to="/">
