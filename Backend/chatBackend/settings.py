@@ -15,10 +15,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-_s0#k02%uaw84k$&fkrjb=#d$rdh^8*9n@z+z76gzwwkqvqmfw'
+# i have put secrete key in the server enviroment
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # DEBUG = os.environ.get('DEBUG_VALUE')
 
 ALLOWED_HOSTS = ["dudichatapp.herokuapp.com"]
@@ -123,12 +123,12 @@ WSGI_APPLICATION = 'chatBackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
@@ -184,7 +184,6 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [
   'http://localhost:8000','https://dudichatapp.herokuapp.com/','http://dudichatapp.herokuapp.com/','https://dudichatapp.herokuapp.com','http://dudichatapp.herokuapp.com',
 ]
@@ -198,9 +197,9 @@ DATABASES['default'].update(prod_db)
 django_heroku.settings(locals())
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'doan8jmkd',
-    'API_KEY': '654114845567727',
-    'API_SECRET': 'HNuQzBtWHvB_etKvy-xbiYQTJ_Y',
+    'CLOUD_NAME': <Your cloudinary name>,
+    'API_KEY': <your cloudinary api key>,
+    'API_SECRET': <your cloudinary secret key>,
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
