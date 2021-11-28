@@ -9,6 +9,6 @@ yourself to the app by your ***credentials*** you will get list of all registere
 as well.<br>**here is one important privilege must also be consider which is if you don't register yourself as authenticated user
 and do other approach as random user then all your chat even your chat room will be deleted after 24 hours(a day)** :blush:
 <br>
-Link for the project is [here](https://dudichatapp.herokuapp.com/)
+Link for the project is <a href="https://dudichatapp.herokuapp.com/">here</a>
 
    
