@@ -22,7 +22,7 @@ export const MyProfile = () => {
                 <h1 className="headertextProfile">Thanks For Visiting My App! Really Appreciate </h1><h1 className="emoji">&#128522;</h1>
                        <h3 className="frontandback">FrontEnd and Backend :</h3><p className="myname">Anand dudi</p><br/>
                            <div className="detailclass"><h3 className="detailText">Some-Details:</h3><p className="detail">This is my first website.I use <font color="lightcoral">REACT</font> at Front and <font color="lightcoral">DJANGO</font> at back.<br/>
-<RiHomeSmileFill className="smilehome"/>
+                            some info about me here<RiHomeSmileFill className="smilehome"/>
                             </p></div>
                 <div onClick={()=>setTimeout(()=>{history.push("/")},230)} className="profileBackButton"><span>Back</span></div>
                 </div>
