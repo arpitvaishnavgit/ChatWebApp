@@ -10,5 +10,7 @@ as well.<br><b><i>here is one important privilege must also be consider which is
 and do other approach as random user then all your chat even your chat room will be deleted after 24 hours(a day)</i></b> :blush:
 <br>
 Link for the project is <a href="https://dudichatapp.herokuapp.com/">here</a>
+<br><br>
+<h3>One more thing i want to say that there is no copy paste of a single line of code in whole project all things are written by me</h3>
 
    
