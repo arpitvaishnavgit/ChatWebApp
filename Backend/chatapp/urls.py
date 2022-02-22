@@ -26,6 +26,5 @@ urlpatterns = [
 
 ]
 
-urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
-
+urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)  #this line should be in main url.py file ,not any app's url.py file such as here 
 #600 lines of code in django
