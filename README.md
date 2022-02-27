@@ -15,8 +15,9 @@ I could also use useReducer for state management rather than useState but it was
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> If the user is not registered his or her chat will be deleted after 24 hours. ( this is the extra feature i added ) :no_entry_sign:<br>
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> User will have to submitted their name in order to chat if not register.<br> 
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> If user autheticate themselves then they will get a star on their profile.<br> 
-
+<hr>
 <a href="https://dudichatapp.herokuapp.com/">Link</a> of the Application.
+<hr>
 <h6>No copy pasting at all :blush:<h6>
 
    
