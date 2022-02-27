@@ -1,9 +1,12 @@
- <h1 align="center">Chat App</h1>
- <p align="center"><img src="https://img.shields.io/badge/Framework-React-blue"> <img src="https://img.shields.io/badge/Framework-Django-orange"> <img src="https://img.shields.io/badge/Framework-Django--Rest--Framwork-red"> <img src="https://img.shields.io/badge/-JavaScript-yellow"> <img src="https://img.shields.io/badge/-Python-orange"> <img src="https://img.shields.io/badge/-Figma-ff69b4"> <img src="https://img.shields.io/badge/-Jwt--Decode-brightgreen"> <img src="https://img.shields.io/badge/-PostgreSQL-red"></p>
+<h1 align="center">Chat App</h1>
+<p align="center"><img src="https://img.shields.io/badge/Framework-React-blue"> <img src="https://img.shields.io/badge/Framework-Django-orange"> <img src="https://img.shields.io/badge/Framework-Django--Rest--Framwork-red"> <img src="https://img.shields.io/badge/-JavaScript-yellow"> <img src="https://img.shields.io/badge/-Python-orange"> <img src="https://img.shields.io/badge/-Figma-ff69b4"> <img src="https://img.shields.io/badge/-Jwt--Decode-brightgreen"> <img src="https://img.shields.io/badge/-PostgreSQL-red"></p>
 <p align="center"><a href="https://twitter.com/anand_dudi"><img src="https://img.shields.io/twitter/follow/anand_dudi.svg?style=social" /></a></p>
-The aim of this app was just for portfolio, not for random use and that is why i didn't use
-<b>Websockets</b> for managing the communication between the client & the server.I did also implement
-two approach for building database models for chats :neckbeard:<br>
+I have built the application using javascript framework or library <b><i>React</i></b> as frontend and python framework <b><i>Django</i></b> as backend as well as <b><i>Django-Rest-Framework</i></b> for api because it deals with flawless <i>authentication</i> and <i>serialization</i> of data which supports <b>ORM / non-ORM</b>.<br/>
+<br>
+Used <b>Figma</b> for creating svg file which shows at beginning while loading data. To decode the access token i incorporate jwt-decode dependency which in return providing customized data in the token.
+
+Implemented two approaches for modeling the database that can store,modify and retrive data differently.well it is somewhat inefficient for a chat app to have default database rather <b><i>WebSocket</i></b> would be prime addressing the issue.
+
 The extra functionality which i added here is random chats. Mean by that You can chat with 
 anyone who is registered themselves to the app just by submitting their names but if you want to register 
 yourself to the app by your <em>credentials</em> you will get list of all registered users with star tag on your profile
