@@ -7,7 +7,7 @@ Used <b>Figma</b> for creating svg file which shows at beginning while loading d
 
 Implemented two approaches for modeling the database that can store,modify and retrive data differently. <i>well it is somewhat inefficient for a chat app to have default database rather <b><i>WebSocket</i></b> would be prime addressing the issue.</i>
 
-I could also use useReducer for state management rather than useState but it was my first this big web application so i didn't want to make it complicated.  
+I could also use useReducer for state management rather than useState but it was my first this big web application so i didn't want to more complicated it.  
 
 The extra functionality which i added here is random chats. Mean by that You can chat with 
 anyone who is registered themselves to the app just by submitting their names but if you want to register 
