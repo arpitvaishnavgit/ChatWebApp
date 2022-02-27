@@ -7,16 +7,16 @@ Used <b>Figma</b> for creating svg file which shows at beginning for basic anima
 
 Implemented two approaches for modeling the database that can store,modify and retrive data differently. <i>well it is somewhat inefficient for a chat app to have default database rather <b><i>WebSocket</i></b> would be prime addressing the issue.</i>
 
-I could also use useReducer for state management rather than useState but it was my first this big web application so i didn't want to more complicated it.  
+I could also use useReducer for state management rather than useState but it was my first this big web application so i didn't want to more complicate it. I did also proper use of useContext. there is one more thing left custome hooks because i had used some of similar functionality so it would have been righteous choice.
 
-The extra functionality which i added here is random chats. Mean by that You can chat with 
-anyone who is registered themselves to the app just by submitting their names but if you want to register 
-yourself to the app by your <em>credentials</em> you will get list of all registered users with star tag on your profile
-as well.<br><b><i>here is one important privilege must also be consider which is if you don't register yourself as authenticated user
-and do other approach as random user then all your chat even your chat room will be deleted after 24 hours(a day)</i></b> :blush:
-<br>
-Link for the project is <a href="https://dudichatapp.herokuapp.com/">here</a>
-<br><br>
-<h3>One more thing i want to say that there is no copy paste of a single line of code in whole project all things are written by me</h3>
+<b>The application's specifications</b> :~
+
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> User will have privilege chat with anyone whether he/she is registered or not.<br> 
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> If the user is not registered his or her chat will be deleted after 24 hours. ( this is the extra feature i added ) :no_entry_sign:<br>
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> User will have to submitted their name in order to chat if not register.<br> 
+&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; -> If user autheticate themselves then they will get a star on their profile.<br> 
+
+<a href="https://dudichatapp.herokuapp.com/">Link</a> of the Application.
+<h6>No copy pasting at all :blush:<h6>
 
    
