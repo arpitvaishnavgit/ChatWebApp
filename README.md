@@ -3,7 +3,7 @@
 <p align="center"><a href="https://twitter.com/anand_dudi"><img src="https://img.shields.io/twitter/follow/anand_dudi.svg?style=social" /></a></p>
 I have built the application using javascript framework or library <b><i>React</i></b> as frontend and python framework <b><i>Django</i></b> as backend as well as <b><i>Django-Rest-Framework</i></b> for api because it deals with flawless <i>authentication</i> and <i>serialization</i> of data which supports <b>ORM / non-ORM</b>. I also prefer functional based approach for frontend as well as backend because it allows rooms for customization and facile finding bug<br/>
 <br>
-Used <b>Figma</b> for creating svg file which shows at beginning while loading data. To decode the access token i incorporate jwt-decode dependency which in return providing customized data in the token.
+Used <b>Figma</b> for creating svg file which shows at beginning for basic animation while loading data. To decode the access token i incorporate jwt-decode dependency which in return providing customized data in the token.
 
 Implemented two approaches for modeling the database that can store,modify and retrive data differently. <i>well it is somewhat inefficient for a chat app to have default database rather <b><i>WebSocket</i></b> would be prime addressing the issue.</i>
 
