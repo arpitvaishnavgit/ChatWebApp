@@ -9,7 +9,7 @@ Implemented two approaches for modeling the database that can store,modify and r
 
 I could also use useReducer for state management rather than useState but it was my first this big web application so i didn't want to more complicate it. I did also proper use of useContext. there is one more thing left custome hooks because i had used some of similar functionality so it would have been righteous choice.
 
-<b><i>There is one constrait here that is if the users grows significantly then application may not perform as expected so there is room for data structure and algorithm well due to time limitation to finishing the project i couldn't apply.obviously binary tree would be satisfactory choice on backend view's functions</i></b>  
+<b><i>There is one constrait here that is if the users grows significantly then application may not perform as expected so there is room for data structure and algorithm. well due to time limitation to finishing the project i couldn't do. Obviously binary tree would be satisfactory choice on backend view's functions</i></b>  
 
 <b>The application's specifications</b> :~
 
