@@ -4,7 +4,8 @@ import {ConApi} from './contextapi';
 import {ReactComponent as Backbutton} from './statics/backbuttton.svg';
 
 export const List = (props) => {
-    let {data,
+    let {
+      data,
       chatsdata,
       chatboxis,
       chatsubmitted,
@@ -93,27 +94,25 @@ export const List = (props) => {
         chatboxdatais.push(chatting)
         setRerender(!rerender)
       }
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [chatting])
 
     return (
-        <section> {/*i can also use here callback function as passing props child to parent as in this case passing props to app.js and then app.js
-         would pass that prop to header.js for get rid of toggling button but it will make app much complex and will take time to render
-         so i did here some redundant code makes app simple */}
-         {chatbox ? <div><div className="manageheader"><div className="headerSection">
-            <div><Backbutton  className="backbutton"  onMouseOver={() => {setTimeout(() => {
-              props.changeicons(false);
-              props.makefalse(true);
-              setChatboxdatais([]);
-              setIds(null);
-              settingName('');
-              setChatbox(false)},2000)}}/></div>
-            <div><h3 className="headerSectionText1"><center>{text}</center></h3></div>
-        </div>
-        </div>
-        <div className="mainchatcontainer">
-         <section className="chatcontainer">
-            <ul className="usermessages">
+        <section> 
+         {
+            chatbox ? <div><div className="manageheader"><div className="headerSection">
+                <div><Backbutton  className="backbutton"  onMouseOver={() => {setTimeout(() => {
+                props.changeicons(false);
+                props.makefalse(true);
+                setChatboxdatais([]);
+                setIds(null);
+                settingName('');
+                setChatbox(false)},2000)}}/></div>
+                <div><h3 className="headerSectionText1"><center>{text}</center></h3></div>
+                </div>
+            </div>
+            <div className="mainchatcontainer">
+                <section className="chatcontainer">
+                    <ul className="usermessages">
               {
                 chatboxdatais !== '' && chatboxdatais.map((chts,index) =>{
                   return (
@@ -141,28 +140,30 @@ export const List = (props) => {
           </div>
           </div>
           <div className="namecontain"><div className="namefill">{namefill}</div></div>
-        </div> : <ul className="chatList">
-
+        </div> : 
         {
-          forLogin && data && data.filter(filteroutelements).map((initialdata) => {
+          forLogin && 
+              <ul className="chatList">
+              {
+                 data && data.filter(filteroutelements).map((initialdata) => {
 
-                var result = chatsdata && chatsdata.filter((itm) => String(itm['user_name']) === String(initialdata['pk']))
-                return (
-                <li key={initialdata.pk}><img className="imageList" src={DefaultImage} alt="DefaultImage"/><span onClick={()=>{
-                  props.changeicons(true);
-                  props.makefalse(false);
-                  getORcreate(initialdata['pk']);
-                  settingName(String(initialdata['allnames']))
-                  setChatbox(true)
-                 }} className="titleList">{initialdata['allnames']}</span><div className="contentList">{result && result.length >= 1 ? result.at(-1)['user_chat'] : "No chat"}</div></li>
-                );
-            })
-
-          }
+                    var result = chatsdata && chatsdata.filter((itm) => String(itm['user_name']) === String(initialdata['pk']))
+                     return (
+                        <li key={initialdata.pk}><img className="imageList" src={DefaultImage} alt="DefaultImage"/><span onClick={()=>{
+                        props.changeicons(true);
+                        props.makefalse(false);
+                        getORcreate(initialdata['pk']);
+                        settingName(String(initialdata['allnames']))
+                        setChatbox(true)
+                        }} className="titleList">{initialdata['allnames']}</span><div className="contentList">{result && result.length >= 1 ? result.at(-1)['user_chat'] : "No chat"}</div></li>
+                    );
+                })
+              }
           </ul>
         }
-        </section>
+      }
+      </section>
 
         );
 }
-// 2200 lines of codes in react
+
