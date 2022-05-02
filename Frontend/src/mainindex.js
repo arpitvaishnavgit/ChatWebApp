@@ -19,21 +19,33 @@ function Ren() {
       setTimeout(() => {
           setLoading(true);
       },9000);
-    } else {
-      if (!load){
+    } else if (!load){
         setlaunch(true);
         }
       }
     },[loading,load]);
 
   useEffect(()=>{
-    randomdata()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[])
+           randomdata()
+          },[])
+  
+  if(!launch){
+    if (!loading){
+          return(
+           <>
+              <div className="man1"><Svgfile /></div>
+              <div className="welcome fontheader" >Welcome To Anand Dudi App</div>
+          </>
+            );
+     } else {
+         return (
+             <div className="loadingWhileFetch">Loading Data From Server! Please Wait</div>
+                );
+           }
+      }
+  }
 
-
-  if(launch){
-    return (
+ return (
     <React.Fragment>
     <Router>
       <Switch>
@@ -50,20 +62,5 @@ function Ren() {
     </Router>
   </React.Fragment>
     );
-  } else{
-    if (!loading){
-    return(
-      <>
-      <div className="man1"><Svgfile /></div>
-      <div className="welcome fontheader" >Welcome To Anand Dudi App</div>
-      </>
-      );
-    } else {
-      return (
-          <div className="loadingWhileFetch">Loading Data From Server! Please Wait</div>
-        );
-    }
-  }
-
 }
 export default Ren;
