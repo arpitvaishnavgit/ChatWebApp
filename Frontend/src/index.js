@@ -7,11 +7,9 @@ import ApiProvider from './contextapi';
 
 function Mainfun() {
     return (
-        <div>
         <ApiProvider>
             <Ren/>
         </ApiProvider>
-        </div>
         );
 }
 
