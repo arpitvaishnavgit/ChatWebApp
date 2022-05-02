@@ -11,6 +11,12 @@ export const MyProfile = () => {
         setShowContent(true)
         },8000);
     
+    useEffect(()=>{
+        if(showcontent){
+           setShowContent(false)
+          }
+    },[])
+    
     return (
         <section className="profilePage">
             <img src={backimage} className="backimage" alt="cool"/>
