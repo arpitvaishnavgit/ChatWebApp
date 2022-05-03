@@ -20,6 +20,5 @@ I could also use useReducer for state management rather than useState but it was
 <hr>
 <a href="https://dudichatapp.herokuapp.com/">Link</a> of the Application.
 <hr>
-<h6>No copy pasting at all :blush:<h6>
 
    
